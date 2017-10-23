@@ -9,7 +9,7 @@ Citizen.CreateThread(function()
 			TaskPlayAnim(ped, "mp_weapon_drop", "drop_bh", 8.0, 2.0, -1, 0, 2.0, 0, 0, 0 )
 			SetPedDropsInventoryWeapon(ped, wep, 0, 2.0, 0, -1)
 			SetCurrentPedWeapon(ped, GetHashKey("WEAPON_UNARMED"), true)
-			ShowNotification("~r~You have dropped your weapon.")
+			ShowNotification("~r~Weapon Dropped")
         end
     end
 end)
