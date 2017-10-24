@@ -6,3 +6,10 @@ Drop the weapon you are currently holding by pressing F9.
 - Drops weapons when player dies.
 <br>
 Join my Discord: http://discord.me/deziel0495
+# NOTICE
+This script is licensed under ["No License"](https://choosealicense.com/no-license/).
+### You are allowed to:
+Download, Use and Edit the Script.
+<br>
+### You are not allowed to:
+Copy, re-release, re-distribute it without my written permission.
