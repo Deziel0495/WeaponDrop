@@ -7,7 +7,7 @@ Disables melee when holding any weapon other than a melee weapon. No more pistol
 <br><br>
 Drops weapons when player dies.  
 <br>
-###### Join my Discord: [http://discord.me/deziel0495]
+Join my Discord: http://discord.me/deziel0495
 <br>
 # NOTICE
 This script is licensed under ["No License"](https://choosealicense.com/no-license/).
