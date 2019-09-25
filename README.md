@@ -1,4 +1,7 @@
 # WeaponDrop
+
+### NOTICE: This script is no longer supported, no further updates will be released.
+
 Drop the weapon you are currently holding by pressing F9.
 ## Features
 Complete with the weapon drop animation.
@@ -14,5 +17,3 @@ Download, Use and Edit the Script.
 <br>
 ### You are not allowed to:
 Copy, re-release, re-distribute it without my written permission.
-<br><br>
-###### Join my Discord: http://discord.me/deziel0495
