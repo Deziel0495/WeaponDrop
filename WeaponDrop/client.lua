@@ -5,6 +5,9 @@
 -- You are allowed to: Download, Use and Edit the Script. 
 -- You are not allowed to: Copy, re-release, re-distribute it without my written permission.
 
+------------------------------------
+-- DROP WEAPON
+------------------------------------
 Citizen.CreateThread(function()
     while true do
         Citizen.Wait(0)
@@ -21,6 +24,9 @@ Citizen.CreateThread(function()
     end
 end)
 
+---------------------------------
+-- DISABLE MELEE (PISTOL WHIP)
+---------------------------------
 Citizen.CreateThread(function()
     while true do
         Citizen.Wait(0)
@@ -33,8 +39,30 @@ Citizen.CreateThread(function()
     end
 end)
 
+-----------------------------------
+-- NOTIFICATIONS
+-----------------------------------
 function ShowNotification(text)
 	SetNotificationTextEntry("STRING")
-	AddTextComponentString(text)
+	AddTextComponentString(text)	
 	DrawNotification(false, false)
 end
+
+----------------------------------------
+-- MELEE DAMAGE MODIFIER
+----------------------------------------
+Citizen.CreateThread(function()
+    while true do
+        N_0x4757f00bc6323cfe(GetHashKey("WEAPON_UNARMED"), 0.1)  	
+        N_0x4757f00bc6323cfe(GetHashKey("WEAPON_NIGHTSTICK"), 0.1) 	
+        N_0x4757f00bc6323cfe(GetHashKey("WEAPON_FLASHLIGHT"), 0.1)
+	Wait(0)
+    end
+end)
+
+Citizen.CreateThread(function()
+    while true do
+        Wait(5)
+        SetPedSuffersCriticalHits(PlayerPedId(), false)
+    end
+end)
